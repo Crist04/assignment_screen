@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: true,
         centerTitle: true,
         backgroundColor: Color.fromRGBO(6, 20, 46, 1),
         title: Text(
